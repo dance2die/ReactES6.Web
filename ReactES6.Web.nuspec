@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://docs.microsoft.com/en-us/dotnet/core/tutorials/create-custom-template#pack-the-template-into-a-nuget-package -->
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ReactES6.Web</id>
+    <version>0.0.1</version>
+    <description>
+      ASP.NET Core with React.js template using ES6 (not TypeScript).
+    </description>
+    <authors>Sung Kim</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>
