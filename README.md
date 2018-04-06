@@ -1,6 +1,7 @@
 # ReactES6.Web
 https://www.nuget.org/packages/ReactES6.Web/
 
+---
 ### TL;DR
 ```bash
 > dotnet new -i ReactES6.Web
@@ -10,7 +11,7 @@ https://www.nuget.org/packages/ReactES6.Web/
 > dotnet run
 > code .
 ```
-
+---
 ### How to Install & Run
 From command line,
 
@@ -77,7 +78,7 @@ And play around with HMR (Hot Module Replacement) like a boss ??.
 
 ![HMR demo](https://i.imgur.com/Rbo51jW.gif)
 
-
+---
 ### TO DOs
 1. Automatically run `dotnet restore` upon project creation
 1. Update Nuget metadata
