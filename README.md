@@ -13,7 +13,7 @@ https://www.nuget.org/packages/ReactES6.Web/
 ```
 ---
 ### How to Install & Run
-From command line,
+Install the template `ReactES6.Web` from Nuget.
 
 ```bash
 dotnet new -i ReactES6.Web
