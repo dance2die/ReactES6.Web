@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import { RouteComponentProps } from "react-router";
 
 export class Counter extends Component {
-  constructor() {
-    super();
-    this.state = { currentCount: 0 };
-  }
+  state = { currentCount: 0 };
 
   render() {
     return (
