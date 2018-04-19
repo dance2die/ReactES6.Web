@@ -3,9 +3,10 @@ import { RouteComponentProps } from "react-router";
 import "isomorphic-fetch";
 
 export class FetchData extends Component {
-  constructor() {
-    super();
-    this.state = { forecasts: [], loading: true };
+  state = { forecasts: [], loading: true };
+
+  constructor(props) {
+    super(props);
 
     fetch("api/SampleData/WeatherForecasts")
       .then(response => response.json())
