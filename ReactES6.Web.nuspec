@@ -3,13 +3,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ReactES6.Web</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <description>
-      ASP.NET Core with React.js template using ES6 (not TypeScript).
+      ASP.NET Core with React.js (Fiber) template using ES6.
     </description>
+    <summary>
+      Create a new ASP.NET Core React.js (^16.x) template using ES6 (not TypeScript).
+    </summary>
     <authors>Sung Kim</authors>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <copyright>Copyright © Sung Kim 2018</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/dance2die/ReactES6.Web</projectUrl>
+    <tags>Template, AspNet, Mvc, SPA, React</tags>
   </metadata>
 </package>
