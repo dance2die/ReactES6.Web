@@ -81,6 +81,3 @@ And play around with HMR (Hot Module Replacement) like a boss ??.
 ---
 ### TO DOs
 1. Automatically run `dotnet restore` upon project creation
-1. Update Nuget metadata
-    1. Include Project location
-    2. Show License information
