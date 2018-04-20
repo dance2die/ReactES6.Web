@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ReactES6.Web</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <description>
       ASP.NET Core with React.js (Fiber) template using ES6.
     </description>
