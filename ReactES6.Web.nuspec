@@ -3,6 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ReactES6.Web</id>
+    <title>ASP.NET Core with React.js with ES6</title>
     <version>0.0.4</version>
     <releaseNotes>
       Removed folders(bin, obj, .vscode) from nupkg file
