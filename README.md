@@ -1,8 +1,11 @@
 # ReactES6.Web
+
 https://www.nuget.org/packages/ReactES6.Web/
 
 ---
+
 ### TL;DR
+
 ```bash
 > dotnet new -i ReactES6.Web
 > dotnet new reactes6 -n NewSite.Web
@@ -11,43 +14,53 @@ https://www.nuget.org/packages/ReactES6.Web/
 > dotnet run
 > code .
 ```
+
 ---
+
 ### How to Install & Run
+
 Install the template `ReactES6.Web` from Nuget.
 
 ```bash
 dotnet new -i ReactES6.Web
 ```
-And you will see a new template named `ASP.NET Core with React.js with ES6` (with shortname *reactes6*) would appear.
+
+And you will see a new template named `ASP.NET Core with React.js with ES6` (with shortname _reactes6_) would appear.
 
 ```bash
-dance2die@CC C:\misc\sources\throwaway\coretemplates\fromnuget                                                                            
-> dotnet new -i ReactES6.Web                                                                                                              
-Getting ready...                                                                                                                          
+dance2die@CC C:\misc\sources\throwaway\coretemplates\fromnuget
+> dotnet new -i ReactES6.Web
+Getting ready...
   ...
-                                                                                                                                          
-Templates                                         Short Name       Language          Tags                                                 
---------------------------------------------------------------------------------------------------------                                  
-Console Application                               console          [C#], F#, VB      Common/Console                                       
-...      
-ASP.NET Core with React.js with ES6               reactes6         [C#]              Web/MVC/SPA                                          
-...                                  
-ASP.NET Core with React.js                        react            [C#]              Web/MVC/SPA                                          
-ASP.NET Core with React.js and Redux              reactredux       [C#]              Web/MVC/SPA                                          
-...                          
+
+Templates                                         Short Name       Language          Tags
+--------------------------------------------------------------------------------------------------------
+Console Application                               console          [C#], F#, VB      Common/Console
+...
+ASP.NET Core with React.js with ES6               reactes6         [C#]              Web/MVC/SPA
+...
+ASP.NET Core with React.js                        react            [C#]              Web/MVC/SPA
+ASP.NET Core with React.js and Redux              reactredux       [C#]              Web/MVC/SPA
+...
 MVC ViewStart                                     viewstart                          Web/ASP.NET
 ```
+
 Create a new website using the template `reactes6`
+
 ```bash
 dance2die@CC C:\misc\sources\throwaway\coretemplates\fromnuget
 > dotnet new reactes6 -n NewSite.Web
 The template "ASP.NET Core with React.js with ES6" was created successfully.
 ```
+
 Go to the new website directory
+
 ```bash
 cd NewSite.Web
 ```
+
 Then create restore .NET Core packages and install NPM packages
+
 ```bash
 dance2die@CC C:\misc\sources\throwaway\coretemplates\fromnuget\NewSite.Web
 > dotnet restore && npm install
@@ -61,7 +74,9 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 
 added 611 packages from 525 contributors in 95.097s
 ```
+
 Start the project with `dotnet run`.
+
 ```bash
 dance2die@CC C:\misc\sources\throwaway\coretemplates\fromnuget\NewSite.Web
 > dotnet run
@@ -73,11 +88,23 @@ Content root path: C:\misc\sources\throwaway\coretemplates\fromnuget\NewSite.Web
 Now listening on: http://localhost:60672
 Application started. Press Ctrl+C to shut down.
 ```
+
 Open an editor of your choice (I am using VS Code below).
 And play around with HMR (Hot Module Replacement) like a boss ??.
 
 ![HMR demo](https://i.imgur.com/Rbo51jW.gif)
 
 ---
+
+### Change Log
+
+* v0.0.4 - Removed following folders from nupkg file.
+  * bin
+  * obj
+  * .vscode
+
+---
+
 ### TO DOs
-1. Automatically run `dotnet restore` upon project creation
+
+1.  Automatically run `dotnet restore` upon project creation
