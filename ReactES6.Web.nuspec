@@ -24,6 +24,6 @@
     <file src=".\" target="\" />
     <file src="bin\**\*.*" target="\" exclude="bin\**\*.*" />
     <file src="obj\**\*.*" target="\" exclude="obj\**\*.*" />
-    <file src=".git\**\*.*" target="\" exclude=".git\**\*.*" />
+    <file src=".git" target="" exclude=".git" />
   </files>
 </package>
