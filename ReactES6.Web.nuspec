@@ -21,9 +21,9 @@
   </metadata>
 
   <files>
+    <file src=".\" target="\" />
     <file src="bin\**\*.*" target="\" exclude="bin\**\*.*" />
     <file src="obj\**\*.*" target="\" exclude="obj\**\*.*" />
     <file src=".git\**\*.*" target="\" exclude=".git\**\*.*" />
-    <file src=".\" target="\" exclude="**\.git" />
   </files>
 </package>
