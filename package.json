@@ -4,7 +4,8 @@
   "version": "0.0.3",
   "scripts": {
     "build": "webpack",
-    "buildnuget": "nuget pack .\\ReactES6.Web.nuspec"
+    "buildnuget":
+      "nuget pack .\\ReactES6.Web.nuspec -Exclude bin/**/*.*;obj/**/*.*;.vscode/**/*.*;.git/**/*.*"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

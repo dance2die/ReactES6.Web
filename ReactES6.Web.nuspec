@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ReactES6.Web</id>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <description>
       ASP.NET Core with React.js (Fiber) template using ES6.
     </description>
@@ -19,4 +19,11 @@
     <projectUrl>https://github.com/dance2die/ReactES6.Web</projectUrl>
     <tags>Template, AspNet, Mvc, SPA, React</tags>
   </metadata>
+
+  <files>
+    <file src=".\" target="\" />
+    <file src="bin\**\*.*" target="\" exclude="bin\**\*.*" />
+    <file src="obj\**\*.*" target="\" exclude="obj\**\*.*" />
+    <file src=".git" target="" exclude=".git" />
+  </files>
 </package>
