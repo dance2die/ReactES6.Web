@@ -15,8 +15,9 @@
   "sources": [
     {
       "exclude": [
-        ".vscode/**",
+        ".vscode/**/*.*",
         "obj/**",
+        "bin/**",
         ".template.config/**",
         "*.nuspec",
         "*.nupkg",
