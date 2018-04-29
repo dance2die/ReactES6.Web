@@ -4,7 +4,7 @@
   <metadata>
     <id>ReactES6.Web</id>
     <title>ASP.NET Core with React.js with ES6</title>
-    <version>0.0.4</version>
+    <version>0.0.6</version>
     <releaseNotes>
       Removed folders(bin, obj, .vscode) from nupkg file
     </releaseNotes>
@@ -25,9 +25,8 @@
   </metadata>
 
   <files>
-    <file src=".\" target="\" />
-    <file src="bin\**\*.*" target="\" exclude="bin\**\*.*" />
-    <file src="obj\**\*.*" target="\" exclude="obj\**\*.*" />
-    <file src=".git" target="" exclude=".git" />
+    <file src=".\" target=".\" />
+    <file src="..\ReactES6.Web" exclude="*git\**"/>
+    <file src="..\ReactES6.Web" exclude="*vscode\**\*.*"/>
   </files>
 </package>
