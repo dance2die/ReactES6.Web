@@ -93,6 +93,7 @@ Open an editor of your choice (I am using VS Code below).
 And play around with HMR (Hot Module Replacement) like a boss ??.
 
 ![HMR demo](https://i.imgur.com/Rbo51jW.gif)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web?ref=badge_shield)
 
 ---
 
@@ -108,3 +109,7 @@ And play around with HMR (Hot Module Replacement) like a boss ??.
 ### TO DOs
 
 1.  Automatically run `dotnet restore` upon project creation
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web?ref=badge_large)
