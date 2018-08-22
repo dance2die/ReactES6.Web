@@ -4,7 +4,7 @@
   <metadata>
     <id>ReactES6.Web</id>
     <title>ASP.NET Core with React.js with ES6</title>
-    <version>0.0.6</version>
+    <version>0.1.0</version>
     <releaseNotes>
       Removed .git folder
     </releaseNotes>

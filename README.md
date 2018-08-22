@@ -25,7 +25,8 @@ Install the template `ReactES6.Web` from Nuget.
 dotnet new -i ReactES6.Web
 ```
 
-And you will see a new template named `ASP.NET Core with React.js with ES6` (with shortname _reactes6_) would appear.
+And you will see a new template named `ASP.NET Core with React.js with ES6`
+(with shortname _reactes6_) would appear.
 
 ```bash
 dance2die@CC C:\misc\sources\throwaway\coretemplates\fromnuget
@@ -89,8 +90,8 @@ Now listening on: http://localhost:60672
 Application started. Press Ctrl+C to shut down.
 ```
 
-Open an editor of your choice (I am using VS Code below).
-And play around with HMR (Hot Module Replacement) like a boss ??.
+Open an editor of your choice (I am using VS Code below). And play around with
+HMR (Hot Module Replacement) like a boss ??.
 
 ![HMR demo](https://i.imgur.com/Rbo51jW.gif)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web?ref=badge_shield)
@@ -99,17 +100,26 @@ And play around with HMR (Hot Module Replacement) like a boss ??.
 
 ### Change Log
 
-* v0.0.4 - Removed following folders from nupkg file.
-  * bin
-  * obj
-  * .vscode
+- v0.1.0 - Fixed React Router issue
+
+  - by @dashcraft ([Daniel Ashcraft](https://github.com/dashcraft))
+  - in [Pull Request #3](https://github.com/dance2die/ReactES6.Web/pull/3).
+
+- v0.0.4 - Removed following folders from nupkg file.
+  - bin
+  - obj
+  - .vscode
 
 ---
+
+### Contributors
+
+- @dashcraft ([Daniel Ashcraft](https://github.com/dashcraft))
 
 ### TO DOs
 
 1.  Automatically run `dotnet restore` upon project creation
 
-
 ## License
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdance2die%2FReactES6.Web?ref=badge_large)
